@@ -347,3 +347,15 @@ def create_summary_metrics_display(metrics):
         }
     
     return display_metrics
+
+
+## Voy a hacer unas metrics par probar 
+
+# Format Temperature metrics
+    if 'temperature' in metrics:
+        temp_metrics = metrics['temperature']
+        display_metrics['Temperature'] = {
+            'Average': f"{temp_metrics['mean']:.1f} °C",
+            'Maximum': f"{temp_metrics['max']:.1f} °C",
+            'Minimum': f"{temp_metrics['min']:.1f} °C"
+
