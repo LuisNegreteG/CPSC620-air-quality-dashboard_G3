@@ -347,3 +347,6 @@ def create_summary_metrics_display(metrics):
         }
     
     return display_metrics
+
+
+## Voy a hacer unas metrics par probar 
